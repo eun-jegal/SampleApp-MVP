@@ -29,7 +29,7 @@ This sample app demonstrates an Android architecture pattern - MVP(Model, View, 
 <h2>What is MVP pattern?</h2>
 <p>MVP stands for Model-View-Presenter.</p>
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/227793219-0372bcbc-107d-4e27-b2cf-d38f7d3bf5fc.jpg" width="85%"/>
+   <img src="https://user-images.githubusercontent.com/57670625/229898324-82244a41-1e21-4962-8997-27c04d06c89c.jpg" width="85%"/>
 </p>
 <ul>
 <li><b>Model</b>: Model is a layer for storing data. It is responsible for all business logics and communication with the database and network layers.</li>
@@ -37,12 +37,6 @@ This sample app demonstrates an Android architecture pattern - MVP(Model, View, 
 <li><b>Presenter</b>: Presenter gets data from Model and updates UI to display fetched data. It is responsible for managing View states and take actions(ask Model for data) according to the user interaction notifications from View </li>
 </ul>
 <br>
-
-<h3>MVP flow representation</h3>
-<p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/227793218-f39f6f9a-29d0-4596-9d28-ec79025f7bec.jpg" width="85%"/>
-</p>
-<p>This diagram presents how the app responds within MVP architecture.</p>
 
 <!-- App Architecture -->
 <h2>App Architecture</h2>
