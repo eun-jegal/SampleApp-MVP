@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SampleApp-MVP</string>
+    <string name="btn_text_update_data">Update Data</string>
+    <string name="network_error_msg">Please check your network connection!</string>
+</resources>
