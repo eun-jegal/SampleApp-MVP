@@ -42,40 +42,14 @@ This sample app demonstrates an Android architecture pattern - MVP(Model, View, 
 <h2>App Architecture</h2>
 <p>This sample app was built with MVP pattern.</p>
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/228396945-a6f69b5d-730a-4ce4-b1b3-bd4f24124070.jpg" width="85%"/>
+   <img src="" width="85%"/>
 </p>
 <h3>How MVP works in this app</h3>
 <p>The below diagram presents how the app responds according to an user interaction.</p>
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/228396943-0b57c75d-dbdc-4a69-aff7-06acd19870d7.jpg" width="55%"/>
+   <img src="" width="55%"/>
 </p>
-
-<p>1. The user clicks on the "Update data" button on the main screen. Then, View delivers "Intent(User action)" to ViewModel.</p>
-<pre><code>binding.apply {
-            btnUpdateData.setOnClickListener {
-                // Send intent to viewModel
-                viewModel.sendIntent(MainIntent.FetchUser)
-            }
-        }</code></pre>
-<p>ViewModel receives Intent from View and send it to "userIntent" channel.</p>
-<pre><code>fun sendIntent(intent: MainIntent) {
-        viewModelScope.launch {
-            userIntent.send(intent)
-        }
-    }</code></pre>
-<p></p>
-
-<p>2. ViewModel performs action(requesting data to repository).</p>
-<pre><code>private fun handleIntent() {
-        viewModelScope.launch {
-            userIntent.consumeAsFlow().collect {
-                when (it) {
-                    is MainIntent.FetchUser -> fetchUser()
-                }
-            }
-        }
-    }</code></pre>
     
 <!-- References -->
 <h2>References</h2>
