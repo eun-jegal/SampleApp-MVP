@@ -42,7 +42,7 @@ This sample app demonstrates an Android architecture pattern - MVP(Model, View, 
 <h2>App Architecture</h2>
 <p>This sample app was built with MVP pattern.</p>
 <p align="center">
-   <img src="" width="85%"/>
+   <img src="https://user-images.githubusercontent.com/57670625/230804096-c86c3c63-742f-4f19-8d2d-7c31405f4293.jpg" width="85%"/>
 </p>
 <h3>How MVP works in this app</h3>
 <p>The below diagram presents how the app responds according to an user interaction.</p>
