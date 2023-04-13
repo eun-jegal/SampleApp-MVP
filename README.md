@@ -5,6 +5,12 @@ This sample app demonstrates an Android architecture pattern - MVP(Model, View, 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57670625/227792457-50104c7b-b626-4e62-9769-26c3875040a3.gif" width="23%"/>
 </p>
+<h3>Sample app built with different architectures</h3>
+<ul>
+  <li><a href="https://github.com/eun-jegal/SampleApp-MVC">MVC Pattern</a></li>
+  <li><a href="https://github.com/eun-jegal/SampleApp-MVVM">MVVM Pattern</a></li>
+  <li><a href="https://github.com/eun-jegal/SampleApp-MVI">MVI Pattern</a></li>
+</ul>
 <br>
 
 <!-- Tech Stack -->
